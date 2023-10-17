@@ -9,7 +9,7 @@ gem 'rails', '~> 7.0.7', '>= 7.0.7.2'
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem 'sprockets-rails'
 
-gem 'dotenv-rails', groups: [:development, :test]
+gem 'dotenv-rails', groups: %i[development test]
 
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 1.1'
