@@ -59,10 +59,10 @@
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo & Presentation <a name="live-demo"></a>
 
-- [Live Demo Link](https://.com/)
-- [Video presentation](https://www.loom.com/share)
+<!-- - [Live Demo Link](https://.com/) -->
+- [Video presentation](https://www.loom.com/share/57c6fdd60a4e4194801408bfb6d03e38?sid=ddd6dba0-e821-412e-8406-5ff24fafe213)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -71,14 +71,6 @@
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
-
-### Prerequisites
-
-In order to run this project you need:
-
-- `Linux Operating system`
-- `Text Editor (VSCode, RubyMine)`
-- `Ruby`
 
 ### Setup
 
