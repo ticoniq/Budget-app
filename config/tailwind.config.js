@@ -11,6 +11,9 @@ module.exports = {
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
       },
+      maxWidth: {
+        'custom': '1100px', // Add your custom max-width value here
+      },
     },
   },
   plugins: [

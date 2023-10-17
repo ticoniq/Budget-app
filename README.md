@@ -96,6 +96,7 @@ Install this project with:
 ```sh
   cd my-project
   bundle install
+  rails assets:precompile
 ```
 
 ### Usage

@@ -7,7 +7,7 @@ FactoryBot.define do
 
   factory :category do
     sequence(:name) { |n| "Category #{n}" }
-    icon { 'https://example.com/icon.png' }
+    icon { 'https://th.bing.com/th/id/R.39bdd11e20f3ac5453ebdc391b45d334?rik=H8m3sagAXuCU6Q&pid=ImgRaw&r=0' }
     user
   end
 
