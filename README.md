@@ -32,7 +32,7 @@
 
 # 📖 Budget app <a name="about-project"></a>
 
-**Budget app** is a mobile web application where you can manage your budget; you have a list of transactions associated with a category, so that you can see how much money you spent and on what.
+Budget Tracker is a user-friendly mobile app that empowers individuals to take control of their personal finances. By tracking all transactions in one place, users get an always up-to-date overview of spending - enabling better decisions.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -52,8 +52,8 @@
 ### Key Features <a name="key-features"></a>
 
 - **register and log in, so that the data is private to them.**
-- **introduce new transactions associated with a category.**
-- **see the money spent on each category.**
+- **Categorize purchases to see exact amounts spent on groceries, eating out, shopping, bills etc.**
+- **Set custom budgets for each category and track over/under spending**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
