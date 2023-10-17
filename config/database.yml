@@ -16,7 +16,10 @@ test:
   database: Budgetapp_test
 
 production:
-  <<: *default
-  database: Budgetapp_production
-  username: Budgetapp
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  url: <%= ENV["Budgetapp_DATABASE_URL"] %>
+  database: <%= ENV["Budgetapp_DATABASE_NAME"] %>
+  username: <%= ENV["Budgetapp_DATABASE_USERNAME"] %>
   password: <%= ENV["Budgetapp_DATABASE_PASSWORD"] %>
