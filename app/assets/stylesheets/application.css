@@ -14,18 +14,6 @@ body {
   max-width: 500px;
 }
 
-.item-title-color {
-  color: #ababab;
-}
-
-.amount-color {
-  color: #373e48;
-}
-
-.date-color {
-  color: #bababd;
-}
-
 .green-btn {
   background-color: #60b524;
   color: #fff;
@@ -43,8 +31,4 @@ body {
 .blue-btn {
   background-color: #3778c2;
   color: #fff;
-}
-
-.width-new {
-  width: 80%;
 }

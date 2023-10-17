@@ -12,12 +12,12 @@
       </ul>
     </div>
 
-    <section class="px-5">
-      <p style="color: green"><%= notice %></p>
+    <section class="">
+      <p class="text-green-500"><%= notice %></p>
 
       <div id="categories">
         <% @categories.each do |category| %>
-          <a href="<%= category_path(category) %>" class="m-1">
+          <a href="<%= category_path(category) %>" class="space-y-1 mt-1 border-gray-400">
             <%= render category %>
           </a>
         <% end %>
@@ -25,11 +25,11 @@
     </section>
   </div>
 
-  <section class="text-center mt-4">
+  <section class="text-center">
     <%= link_to new_category_path do %>
-      <div class="w-full green-btn flex">
-        <button class="p-2 py-4 m-4 text-lg w-full border-2 green-btn rounded hover:bg-green-600 focus:outline-none focus:bg-green-600">
-          <strong>Add a New Category</strong>
+      <div class="w-full bg-lime-600 flex text-white">
+        <button class="font-bold p-2 py-4 m-4 text-lg w-full border-2 bg-lime-600 rounded hover:bg-lime-500 focus:outline-none focus:bg-lime-500">
+          Add a New Category 
         </button>
       </div>
     <% end %>
