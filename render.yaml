@@ -1,7 +1,7 @@
 databases:
-  - name: microverse355173
-    databaseName: microverse355173
-    user: microverse355173
+  - name: budgetapp121
+    databaseName: budgetapp121
+    user: budgetapp121
 
 services:
   - type: web
@@ -12,7 +12,7 @@ services:
     envVars:
       - key: DATABASE_URL
         fromDatabase:
-          name: microverse355173
+          name: budgetapp121
           property: connectionString
       - key: RAILS_MASTER_KEY
         sync: false
