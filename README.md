@@ -61,7 +61,7 @@ Budget Tracker is a user-friendly mobile app that empowers individuals to take c
 
 ## 🚀 Live Demo & Presentation <a name="live-demo"></a>
 
-<!-- - [Live Demo Link](https://.com/) -->
+- [Live Demo Link](https://budgetapp-y18o.onrender.com)
 - [Video presentation](https://www.loom.com/share/57c6fdd60a4e4194801408bfb6d03e38?sid=ddd6dba0-e821-412e-8406-5ff24fafe213)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
