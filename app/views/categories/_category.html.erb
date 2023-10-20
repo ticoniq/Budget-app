@@ -1,0 +1,17 @@
+<div id="<%= dom_id category %>" class="drop-shadow-md bg-white flex justify-start gap-5 w-full p-3">
+  <div class="w-2/12 flex flex-col justify-between">
+    <% if category.icon.present? %>
+        <%= image_tag category.icon, alt: category.name, class: 'w-16 rounded' %>
+    <% end %>
+  </div>
+  <div class="w-10/12 flex flex-col justify-between">
+    <div class="flex justify-between w-full">
+      <p class="text-gray-400 font-bold"><%= category.name %></p>
+      <p class="self-center text-gray-700 font-bold">Total: $<%= category.purchases.sum(:amount) %></p>
+    </div>
+    
+    <p class="text-gray-300 text-xs">
+    <span><%= category.created_at.strftime('%d %b %Y') %></span>
+    </p>
+  </div>
+</div>
