@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('/assets/Proxima Nova Font.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #eff2f1;
+  font-family: 'Proxima Nova', sans-serif;
+}
+
+.newcustom {
+  max-width: 500px;
+}
+
+.green-btn {
+  background-color: #60b524;
+  color: #fff;
+}
+
+.blue-nav-white-text {
+  background-color: #3778c2;
+  color: #fff;
+}
+
+.blue {
+  color: #3778c2;
+}
+
+.blue-btn {
+  background-color: #3778c2;
+  color: #fff;
+}

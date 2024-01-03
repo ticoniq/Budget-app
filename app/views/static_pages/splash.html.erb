@@ -1,0 +1,14 @@
+<div class="flex flex-col justify-between h-screen items-center">
+  <p class="text-center p-3 py-5 blue-btn w-full">Welcome to Budget Monitor</p>
+  <a href="<%= categories_path %>" class="w-full text-center text-3xl blue font-bold">View categories</button></a>
+  <div class="w-full">
+      <div class="flex flex-col w-full space-y-3 px-4">
+        <% if user_signed_in? %>
+            <a href="<%= categories_path %>" class="w-full blue-btn text-center p-4 border-s-2 hover:bg-gray-300 hover:text-black">View categories</button></a>
+        <% else %>
+          <%= link_to 'Sign In', new_user_session_path, class:"w-full blue-btn text-center p-4 border-s-2 hover:bg-gray-300 hover:text-black" %>
+          <%= link_to 'Sign Up', new_user_registration_path, class:"w-full blue-btn text-center p-4 border-s-2 hover:bg-gray-300 hover:text-black" %>
+        <% end %>
+      </div>
+  </div>
+</div>

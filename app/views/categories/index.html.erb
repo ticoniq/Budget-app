@@ -1,0 +1,37 @@
+<div class="flex flex-col h-screen justify-between">
+  <div>
+    <div class="navigation py-6 px-3 blue-nav-white-text">
+      <ul class="flex justify-between items-center">
+        <li class="w-10">
+          <%= link_to image_tag('backarrow.png', alt: 'Back'), root_path, class: 'nav-link' %>
+        </li>
+        <h2><strong>Categories</strong></h2>
+        <li>
+          <%= link_to 'Sign Out', destroy_user_session_path, data: { turbo_method: :delete }, class: "nav-link" %>
+        </li>
+      </ul>
+    </div>
+
+    <section class="">
+      <p class="text-green-500"><%= notice %></p>
+
+      <div id="categories">
+        <% @categories.each do |category| %>
+          <a href="<%= category_path(category) %>" class="space-y-1 mt-1 border-gray-400">
+            <%= render category %>
+          </a>
+        <% end %>
+      </div>
+    </section>
+  </div>
+
+  <section class="text-center">
+    <%= link_to new_category_path do %>
+      <div class="w-full bg-lime-600 flex text-white">
+        <button class="font-bold p-2 py-4 m-4 text-lg w-full border-2 bg-lime-600 rounded hover:bg-lime-500 focus:outline-none focus:bg-lime-500">
+          Add a New Category 
+        </button>
+      </div>
+    <% end %>
+  </section>
+</div>
